@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 1077734149
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: desktop_windows_physics_projectilemotion
+      Dependencies: {}

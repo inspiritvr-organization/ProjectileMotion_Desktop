@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 3912110121
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: desktop_mac_physics_projectilemotion
+      Dependencies: {}

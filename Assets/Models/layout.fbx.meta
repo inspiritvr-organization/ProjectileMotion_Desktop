@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 2bf7f6d79262bfe4ba1cb13012238e3f
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Entrance_Gate_lambert2
+    second: {fileID: 2100000, guid: 6d5faf7084e184a489eaa3ca3c6c44fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Entrance_dome_Entrance_dome_glass
+    second: {fileID: 2100000, guid: 5a226e96c52e73247a4d35cbfd01a25a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: baked_tent1_aiAmbientOcclusion1
+    second: {fileID: 2100000, guid: 0b878f2dc9b540147ba2ea8640a9dce0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: db255bdf3938e9a41a7e7a7cbc19cdee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 89d175e2227bccd4ab9772b6b05ca621, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: b41576908f4d42947bb2d43aa5b45be7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: 5f88d586f045cb04faac4bb64e2989aa, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftLowerLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Entrance_Gate:Entrance_gate
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Entrance_Gate:Pillar_4
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Entrance_Gate:Pillar_3
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Entrance_Gate:Pillar_7
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: layout(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: planarTrimmedSurface1
+      parentName: layout(Clone)
+      position: {x: -2.2284963, y: -0.47278523, z: 4.7222776}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.035081454, y: 0.035081454, z: 0.035081454}
+    - name: planarTrimmedSurface2
+      parentName: layout(Clone)
+      position: {x: -2.2284963, y: -0.8458157, z: 5.782704}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.03856025, y: 0.03856025, z: 0.03856025}
+    - name: Entrance_Gate:Entrance_gate
+      parentName: layout(Clone)
+      position: {x: -17.999037, y: -0.028902521, z: 10.870887}
+      rotation: {x: 0, y: -0.023010405, z: -0, w: 0.99973524}
+      scale: {x: 1.0720276, y: 1.0720276, z: 1.0720276}
+    - name: Entrance_Gate:Pillar_7
+      parentName: Entrance_Gate:Entrance_gate
+      position: {x: -0, y: 4.1596394, z: 0.00000011683129}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Entrance_Gate:Pillar_6
+      parentName: Entrance_Gate:Entrance_gate
+      position: {x: -1.6436564, y: 3.3850377, z: -2.508034}
+      rotation: {x: 0, y: 0.25588214, z: -0, w: 0.966708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Entrance_Gate:Pillar_5
+      parentName: Entrance_Gate:Entrance_gate
+      position: {x: 1.6343333, y: 3.3850377, z: -2.5391197}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Entrance_Gate:Pillar_4
+      parentName: Entrance_Gate:Entrance_gate
+      position: {x: -2.9567323, y: 3.3850377, z: -0.019327957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Entrance_Gate:Pillar_3
+      parentName: Entrance_Gate:Entrance_gate
+      position: {x: 2.9823914, y: 3.3850377, z: -0.019327957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Entrance_Gate:Pillar_2
+      parentName: Entrance_Gate:Entrance_gate
+      position: {x: -1.6436564, y: 3.3850377, z: 2.4446242}
+      rotation: {x: 0, y: 0.25588214, z: -0, w: 0.966708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Entrance_Gate:Pillar_1
+      parentName: Entrance_Gate:Entrance_gate
+      position: {x: 1.6343333, y: 3.3850377, z: 2.413538}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Entrance_Gate:top_2
+      parentName: Entrance_Gate:Entrance_gate
+      position: {x: -0, y: 3.647267, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.157259, y: 0.93720925, z: 2.157259}
+    - name: Entrance_Gate:top_1
+      parentName: Entrance_Gate:Entrance_gate
+      position: {x: -0, y: 3.7047997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.6076968, y: 1.6076968, z: 1.6076968}
+    - name: entrance_dome
+      parentName: layout(Clone)
+      position: {x: -11.379839, y: 2.2504208, z: 16.310337}
+      rotation: {x: 0, y: -0.30669284, z: -0, w: 0.9518086}
+      scale: {x: 0.9852777, y: 0.75211895, z: 0.9225626}
+    - name: Entrance_dome:pPipe7
+      parentName: entrance_dome
+      position: {x: -0.0065408237, y: 2.4058762, z: 4.4799414}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 5.8066087, y: 5.8066087, z: 5.8066087}
+    - name: Entrance_dome:Entrance_dome:pPipe8
+      parentName: entrance_dome
+      position: {x: -0.00000018167495, y: -0.48666328, z: -0.120121725}
+      rotation: {x: 0, y: 0.30669284, z: -0, w: 0.9518086}
+      scale: {x: 0.028467478, y: 0.028467478, z: 0.028467478}
+    - name: Entrance_dome:polySurface1
+      parentName: Entrance_dome:Entrance_dome:pPipe8
+      position: {x: -0.000007994185, y: -0.0000006354257, z: 0.000013366145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Entrance_dome:polySurface2
+      parentName: Entrance_dome:Entrance_dome:pPipe8
+      position: {x: 0.29785287, y: 8.395352, z: 0.21419562}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Entrance_dome:polySurface3
+      parentName: Entrance_dome:Entrance_dome:pPipe8
+      position: {x: 0.000010609329, y: 7.264114, z: 0.000013366145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: typeMesh1
+      parentName: entrance_dome
+      position: {x: -0.0066761076, y: 2.4711838, z: 4.59721}
+      rotation: {x: 0, y: 0.00074824446, z: -0, w: 0.99999976}
+      scale: {x: 0.016021315, y: 0.02098796, z: 0.017110428}
+    - name: baked_tent1:Tent
+      parentName: layout(Clone)
+      position: {x: -2.2367241, y: 2.0640614, z: 6.0126925}
+      rotation: {x: -1.429102e-17, y: -0.81410617, z: 1.429102e-17, w: 0.5807161}
+      scale: {x: 0.015235834, y: 0.015235834, z: 0.015235834}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
