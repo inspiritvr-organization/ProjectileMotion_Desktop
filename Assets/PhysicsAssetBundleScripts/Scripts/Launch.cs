@@ -40,6 +40,7 @@ public class Launch : MonoBehaviour
     Transform parent;
     
     bool markers_init = true;
+    bool collided = false;
     public bool launched = false;
 
 
@@ -77,8 +78,11 @@ public class Launch : MonoBehaviour
     {
         if (!launched)
         {
+            GetComponent<Rigidbody>().velocity = (dirn);
+            print("Launch called");
             if (isCannon)
             {
+                StartCoroutine(ImmediateObjectReset());
                 spawnPosition = transform.position;
                 spawnOrientation = transform.rotation;
             }
@@ -105,8 +109,12 @@ public class Launch : MonoBehaviour
             Vector3 axis = Vector3.Cross(dirn, Vector3.up);
             angle = Vector3.SignedAngle(dirn, new Vector3(dirn.x, 0f, dirn.z), -axis);
             //Populate graph at this point////////////
-            if (isCannon)
-                populateGraph.Populate();
+            
+                if (isCannon)
+                {
+                    populateGraph.Populate();
+                }
+            collided = false;
 
         }
         //print(dirn);
@@ -185,7 +193,7 @@ public class Launch : MonoBehaviour
 
         print(gameObject.name +  "Object entered = " + collision.gameObject.name);
 
-        if(launched)
+        if(launched && !collided)
         {
             trailobj.transform.parent = null;
             PointRelease.transform.SetParent(transform.parent);
@@ -203,20 +211,26 @@ public class Launch : MonoBehaviour
             //Markers reused every other time
             PlaceProjectileInfo(projectileInfo);
             //launched = false;
-            GetComponent<SoundEffectManager>().PlayStrikeSound();
-            StartCoroutine(ObjectReset());
+           
+                GetComponent<SoundEffectManager>().PlayStrikeSound();
+            
+            if(!isCannon)
+                StartCoroutine(ObjectReset());
             print("Collision with " + collision.transform.name);
             if (collision.gameObject.name == "Ground")
             {
                 crack.SetActive(false);
                 crack.SetActive(true);
-                crack.transform.position = collision.contacts[0].point + new Vector3(0f, 0.01f, 0f);
+                crack.transform.position = collision.contacts[0].point;// + new Vector3(0f, 0.01f, 0f);
             }
             //crack.GetComponent<RFX4_EffectSettings>().IsVisible = true;
             //StartCoroutine(DistortAnim());
             PointRelease.transform.SetParent(null);
             //if (isCannon)
-                //populateGraph.StopPopulate();
+            //populateGraph.StopPopulate();
+            if (isCannon)
+                launched = false;
+                collided = true;
         }
     }
 
@@ -236,6 +250,13 @@ public class Launch : MonoBehaviour
         transform.rotation = spawnOrientation;
         launched = false;
         //GetComponent<Rigidbody>().isKinematic = false;
+    }
+
+    public IEnumerator ImmediateObjectReset()
+    {
+        transform.parent = parent;
+        transform.position = spawnPosition;
+        yield return null;
     }
 
 }

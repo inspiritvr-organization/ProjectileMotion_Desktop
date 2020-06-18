@@ -27,7 +27,7 @@ public class Cannon : MonoBehaviour
     {
         cannonBallRB.isKinematic = false;
         //cannonBallRB.AddForce(-transform.GetChild(0).transform.forward * power, ForceMode.Impulse);
-        cannonBallRB.velocity = (-transform.GetChild(0).transform.forward * power);
+        //cannonBallRB.velocity = (-transform.GetChild(0).transform.forward * power);
         cannonBallRB.transform.SetParent(null);
         cannonBallRB.gameObject.GetComponent<Launch>().LaunchProjectile(-transform.GetChild(0).transform.forward * power);
     }

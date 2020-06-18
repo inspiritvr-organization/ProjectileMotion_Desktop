@@ -8,7 +8,6 @@ public class FollowHeatMap : MonoBehaviour
     Data data;
     Session newSession;
     [SerializeField] string ModuleName;
-    [SerializeField] string dataPath;
     [SerializeField] int SessionID;
     public GameObject trackerPrefab;
     void RecreateSession(int sessionId)
@@ -37,7 +36,7 @@ public class FollowHeatMap : MonoBehaviour
     }
     private bool FileExists()
     {
-        string path = Application.dataPath + dataPath + ModuleName + "_HeatMap.json";
+        string path = Application.persistentDataPath + "/" + ModuleName + "_HeatMap.json";
         if (!File.Exists(path))
             return false;
         else return true;
@@ -45,7 +44,7 @@ public class FollowHeatMap : MonoBehaviour
 
     private bool ReadJSON()
     {
-        string path = Application.dataPath + dataPath + ModuleName + "_HeatMap.json";
+        string path = Application.persistentDataPath + "/" + ModuleName + "_HeatMap.json";
         string jsonString = File.ReadAllText(path);
         data = JsonUtility.FromJson<Data>(jsonString);
         int sessionId = data.session[data.session.Count - 1].sessionId + 1;

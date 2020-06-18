@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class CannonInteraction : MonoBehaviour
 {   
-    public GameObject cannonCanvas;
+    GameObject cannonCanvas;
     public GameObject[] menus;
     int layerMask;
-    MouseLook mouselook;
+    public MouseLook mouselook;
     public bool cannonUIenable = false;
-    public GameObject cannonScreen;
+    GameObject cannonScreen;
     public GameObject pointerScreen;
 
     // Start is called before the first frame update
     void Start()
     {
         layerMask = LayerMask.GetMask("Cannon");
-        mouselook = transform.parent.GetComponent<MouseLook>();
+        //mouselook = this.transform.parent.gameObject.GetComponent<MouseLook>();
+        cannonCanvas = GameObject.Find("CannonUI").transform.GetChild(0).gameObject;
+        cannonScreen = GameObject.Find("CannonScreen").gameObject;
     }
 
     // Update is called once per frame
@@ -62,5 +64,4 @@ public class CannonInteraction : MonoBehaviour
         cannonUIenable = dec;                          // bool when cannonUI enable is on
         pointerScreen.SetActive(!dec);
     }
-
 }

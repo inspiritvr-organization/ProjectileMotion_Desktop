@@ -8,7 +8,6 @@ public class HeatmapData : MonoBehaviour
 {
     [SerializeField] string ModuleName;
     [SerializeField] string Version;
-    [SerializeField] string dataPath;
     List<Vector3> playerPosition = new List<Vector3>();
     List<Quaternion> playerOrientation = new List<Quaternion>();
     List<float> timeStamp = new List<float>();
@@ -34,7 +33,7 @@ public class HeatmapData : MonoBehaviour
 
     private bool FileExists()
     {
-        string path = Application.dataPath + "/StreamingAssets/JSONFiles/" + ModuleName + "_HeatMap.json";
+        string path = Application.persistentDataPath + "/" + ModuleName + "_HeatMap.json";
         if (!File.Exists(path))
             return false;
         else return true;
@@ -78,7 +77,7 @@ public class HeatmapData : MonoBehaviour
 
     private bool ReadJSON()
     {
-        string path = Application.dataPath + "/StreamingAssets/JSONFiles/" + ModuleName + "_HeatMap.json";
+        string path = Application.persistentDataPath + "/" + ModuleName + "_HeatMap.json";
         string jsonString = File.ReadAllText(path);
         data = JsonUtility.FromJson<Data>(jsonString);
         newSession = new Session();
@@ -104,7 +103,7 @@ public class HeatmapData : MonoBehaviour
 
     public void WriteDataToFile(string jsonString)
     {
-        string path = Application.dataPath + "/StreamingAssets/JSONFiles/" + ModuleName + "_HeatMap.json";
+        string path = Application.persistentDataPath + "/" + ModuleName + "_HeatMap.json";
         Debug.Log("AssetPath:" + path);
         File.WriteAllText(path, jsonString);
         #if UNITY_EDITOR

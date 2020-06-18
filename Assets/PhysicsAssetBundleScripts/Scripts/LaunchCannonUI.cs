@@ -15,6 +15,7 @@ public class LaunchCannonUI : MonoBehaviour
     {
         launch = GetComponent<Button>();
         launch.onClick.AddListener(delegate { Launch(); });
+        cannonInteraction = Camera.main.gameObject.GetComponent<CannonInteraction>();
     }
 
     void Launch()
