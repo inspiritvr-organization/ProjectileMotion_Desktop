@@ -52,12 +52,12 @@ public class MainMenuUI : MonoBehaviour
     {
         if (active)
         {
-            mouseLook.freeze_view = true;
+            MouseLook.freeze_view = true;
             PointerCenterScreen.SetActive(false);
         }
         else
         {
-            mouseLook.freeze_view = false;
+            MouseLook.freeze_view = false;
             PointerCenterScreen.SetActive(true);
         }
         MainPanel.SetActive(active);

@@ -58,7 +58,7 @@ public class CannonInteraction : MonoBehaviour
 
     public void CannonEnable(bool dec)
     {
-        mouselook.freeze_view = dec;                   //Freezes camera rotation
+        MouseLook.freeze_view = dec;                   //Freezes camera rotation
         Cursor.visible = dec;
         cannonCanvas.SetActive(dec);                   //Activates camera canvas
         cannonUIenable = dec;                          // bool when cannonUI enable is on

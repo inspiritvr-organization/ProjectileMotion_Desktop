@@ -15,13 +15,15 @@ public class GrabObject : MonoBehaviour
     public TextMeshProUGUI angleText;
     public GameObject HoverText;                            // Shows object name when hovered
     LayerMask layerMask;
-    
+    public AudioClip grab_sound;
+    AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
     {
         layerMask = LayerMask.GetMask("Projectile");
         objectinHand = null;
+        audio = GetComponent<AudioSource>();
     }
 
    
@@ -91,6 +93,8 @@ public class GrabObject : MonoBehaviour
         obj.position = transform.position + Camera.main.transform.forward * 1.2f;           // keep object in front of you when grabbed
         velocityText.gameObject.SetActive(true);
         angleText.gameObject.SetActive(true);
+        audio.clip = grab_sound;
+        audio.Play();
         StartCoroutine(AssignObjinHand(obj));
     }
 

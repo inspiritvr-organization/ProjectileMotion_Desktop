@@ -22,7 +22,6 @@ public class TiltCannon : MonoBehaviour
     {
         Vector3 pivottoknob = -handlepoint.position + pivot.transform.position;
         angle = Vector3.Angle(-cannon.transform.forward, pivottoknob.normalized);
-        print(angle);
         if (isCannon)
             screen.transform.GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>().text = "Angle " + angle.ToString("f") + "\x00B0";                             //Displays default angle value on the screen
         //transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = "30" + "\x00B0";

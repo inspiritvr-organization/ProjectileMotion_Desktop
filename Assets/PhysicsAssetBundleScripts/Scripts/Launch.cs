@@ -140,7 +140,7 @@ public class Launch : MonoBehaviour
     }
     void PlaceGazeMarker(GameObject gaze)
     {
-        gaze.transform.position = orig_posn + CalculateMaxHeightPosn();
+        gaze.transform.position = orig_posn + CalculateMaxHeightPosn() + new Vector3 (0f, 0.15f, 0f);
         gaze.transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>().text = "h = " + gaze.transform.position.y.ToString("F") + "m";
         gaze.SetActive(true);
     }
@@ -191,7 +191,6 @@ public class Launch : MonoBehaviour
     {
         //On Collision the trail gets completed and the projectile info predab containing the arrows shows up
 
-        print(gameObject.name +  "Object entered = " + collision.gameObject.name);
 
         if(launched && !collided)
         {
