@@ -1,19 +1,23 @@
 fileFormatVersion: 2
-guid: a853fee2914db1f48ad87eae410e617d
-timeCreated: 1579514047
-licenseType: Store
+guid: 7c40f7eed17a50f4ba0d6957675711b8
 TrueTypeFontImporter:
-  serializedVersion: 2
+  externalObjects: {}
+  serializedVersion: 4
   fontSize: 16
   forceTextureCase: -2
-  characterSpacing: 1
-  characterPadding: 0
+  characterSpacing: 0
+  characterPadding: 1
   includeFontData: 1
-  use2xBehaviour: 0
-  fontNames: []
-  fallbackFontReferences: []
+  fontName: Petit Formal Script
+  fontNames:
+  - Petit Formal Script
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a853fee2914db1f48ad87eae410e617d, type: 3}
   customCharacters: 
   fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

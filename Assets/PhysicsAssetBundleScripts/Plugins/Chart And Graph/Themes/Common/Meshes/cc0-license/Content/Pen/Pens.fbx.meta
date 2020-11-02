@@ -1,155 +1,448 @@
 fileFormatVersion: 2
-guid: fe2cd185919e7fc47b731a99eb482f52
-timeCreated: 1500744060
-licenseType: Store
+guid: ac78cc6f0da674549b8e05787ac1ef47
 ModelImporter:
-  serializedVersion: 18
-  fileIDToRecycleName:
-    100000: brasstip
-    100002: brasstip.001
-    100004: Button
-    100006: Button.001
-    100008: Cylinder.000
-    100010: Cylinder.001
-    100012: Cylinder.002
-    100014: Cylinder.003
-    100016: Cylinder.004
-    100018: Cylinder.005
-    100020: Cylinder.006
-    100022: Cylinder.007
-    100024: GoldRing
-    100026: GoldRing.001
-    100028: GoldRing.002
-    100030: GoldRing.003
-    100032: InkTip
-    100034: InkTip.001
-    100036: //RootNode
-    100038: Plastic/LeatherPen
-    100040: SilverTip
-    100042: SilverTip.001
-    100044: SphereTIP
-    100046: SphereTIP.001
-    100048: TheThingyThing
-    100050: TheThingyThing.001
-    100052: WoodPen
-    400000: brasstip
-    400002: brasstip.001
-    400004: Button
-    400006: Button.001
-    400008: Cylinder.000
-    400010: Cylinder.001
-    400012: Cylinder.002
-    400014: Cylinder.003
-    400016: Cylinder.004
-    400018: Cylinder.005
-    400020: Cylinder.006
-    400022: Cylinder.007
-    400024: GoldRing
-    400026: GoldRing.001
-    400028: GoldRing.002
-    400030: GoldRing.003
-    400032: InkTip
-    400034: InkTip.001
-    400036: //RootNode
-    400038: Plastic/LeatherPen
-    400040: SilverTip
-    400042: SilverTip.001
-    400044: SphereTIP
-    400046: SphereTIP.001
-    400048: TheThingyThing
-    400050: TheThingyThing.001
-    400052: WoodPen
-    2300000: brasstip
-    2300002: brasstip.001
-    2300004: Button
-    2300006: Button.001
-    2300008: Cylinder.000
-    2300010: Cylinder.001
-    2300012: Cylinder.002
-    2300014: Cylinder.003
-    2300016: Cylinder.004
-    2300018: Cylinder.005
-    2300020: Cylinder.006
-    2300022: Cylinder.007
-    2300024: GoldRing
-    2300026: GoldRing.001
-    2300028: GoldRing.002
-    2300030: GoldRing.003
-    2300032: InkTip
-    2300034: InkTip.001
-    2300036: SilverTip
-    2300038: SilverTip.001
-    2300040: SphereTIP
-    2300042: SphereTIP.001
-    2300044: TheThingyThing
-    2300046: TheThingyThing.001
-    3300000: brasstip
-    3300002: brasstip.001
-    3300004: Button
-    3300006: Button.001
-    3300008: Cylinder.000
-    3300010: Cylinder.001
-    3300012: Cylinder.002
-    3300014: Cylinder.003
-    3300016: Cylinder.004
-    3300018: Cylinder.005
-    3300020: Cylinder.006
-    3300022: Cylinder.007
-    3300024: GoldRing
-    3300026: GoldRing.001
-    3300028: GoldRing.002
-    3300030: GoldRing.003
-    3300032: InkTip
-    3300034: InkTip.001
-    3300036: SilverTip
-    3300038: SilverTip.001
-    3300040: SphereTIP
-    3300042: SphereTIP.001
-    3300044: TheThingyThing
-    3300046: TheThingyThing.001
-    4300000: SilverTip.001
-    4300002: Cylinder.007
-    4300004: GoldRing.003
-    4300006: GoldRing.002
-    4300008: Cylinder.006
-    4300010: brasstip.001
-    4300012: SphereTIP.001
-    4300014: InkTip.001
-    4300016: TheThingyThing.001
-    4300018: Button.001
-    4300020: Cylinder.005
-    4300022: Cylinder.003
-    4300024: Cylinder.002
-    4300026: Cylinder.000
-    4300028: Button
-    4300030: TheThingyThing
-    4300032: InkTip
-    4300034: SphereTIP
-    4300036: brasstip
-    4300038: Cylinder.004
-    4300040: GoldRing.001
-    4300042: GoldRing
-    4300044: Cylinder.001
-    4300046: SilverTip
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: brasstip
+  - first:
+      1: 100002
+    second: brasstip.001
+  - first:
+      1: 100004
+    second: Button
+  - first:
+      1: 100006
+    second: Button.001
+  - first:
+      1: 100008
+    second: Cylinder.000
+  - first:
+      1: 100010
+    second: Cylinder.001
+  - first:
+      1: 100012
+    second: Cylinder.002
+  - first:
+      1: 100014
+    second: Cylinder.003
+  - first:
+      1: 100016
+    second: Cylinder.004
+  - first:
+      1: 100018
+    second: Cylinder.005
+  - first:
+      1: 100020
+    second: Cylinder.006
+  - first:
+      1: 100022
+    second: Cylinder.007
+  - first:
+      1: 100024
+    second: GoldRing
+  - first:
+      1: 100026
+    second: GoldRing.001
+  - first:
+      1: 100028
+    second: GoldRing.002
+  - first:
+      1: 100030
+    second: GoldRing.003
+  - first:
+      1: 100032
+    second: InkTip
+  - first:
+      1: 100034
+    second: InkTip.001
+  - first:
+      1: 100036
+    second: //RootNode
+  - first:
+      1: 100038
+    second: Plastic/LeatherPen
+  - first:
+      1: 100040
+    second: SilverTip
+  - first:
+      1: 100042
+    second: SilverTip.001
+  - first:
+      1: 100044
+    second: SphereTIP
+  - first:
+      1: 100046
+    second: SphereTIP.001
+  - first:
+      1: 100048
+    second: TheThingyThing
+  - first:
+      1: 100050
+    second: TheThingyThing.001
+  - first:
+      1: 100052
+    second: WoodPen
+  - first:
+      4: 400000
+    second: brasstip
+  - first:
+      4: 400002
+    second: brasstip.001
+  - first:
+      4: 400004
+    second: Button
+  - first:
+      4: 400006
+    second: Button.001
+  - first:
+      4: 400008
+    second: Cylinder.000
+  - first:
+      4: 400010
+    second: Cylinder.001
+  - first:
+      4: 400012
+    second: Cylinder.002
+  - first:
+      4: 400014
+    second: Cylinder.003
+  - first:
+      4: 400016
+    second: Cylinder.004
+  - first:
+      4: 400018
+    second: Cylinder.005
+  - first:
+      4: 400020
+    second: Cylinder.006
+  - first:
+      4: 400022
+    second: Cylinder.007
+  - first:
+      4: 400024
+    second: GoldRing
+  - first:
+      4: 400026
+    second: GoldRing.001
+  - first:
+      4: 400028
+    second: GoldRing.002
+  - first:
+      4: 400030
+    second: GoldRing.003
+  - first:
+      4: 400032
+    second: InkTip
+  - first:
+      4: 400034
+    second: InkTip.001
+  - first:
+      4: 400036
+    second: //RootNode
+  - first:
+      4: 400038
+    second: Plastic/LeatherPen
+  - first:
+      4: 400040
+    second: SilverTip
+  - first:
+      4: 400042
+    second: SilverTip.001
+  - first:
+      4: 400044
+    second: SphereTIP
+  - first:
+      4: 400046
+    second: SphereTIP.001
+  - first:
+      4: 400048
+    second: TheThingyThing
+  - first:
+      4: 400050
+    second: TheThingyThing.001
+  - first:
+      4: 400052
+    second: WoodPen
+  - first:
+      23: 2300000
+    second: brasstip
+  - first:
+      23: 2300002
+    second: brasstip.001
+  - first:
+      23: 2300004
+    second: Button
+  - first:
+      23: 2300006
+    second: Button.001
+  - first:
+      23: 2300008
+    second: Cylinder.000
+  - first:
+      23: 2300010
+    second: Cylinder.001
+  - first:
+      23: 2300012
+    second: Cylinder.002
+  - first:
+      23: 2300014
+    second: Cylinder.003
+  - first:
+      23: 2300016
+    second: Cylinder.004
+  - first:
+      23: 2300018
+    second: Cylinder.005
+  - first:
+      23: 2300020
+    second: Cylinder.006
+  - first:
+      23: 2300022
+    second: Cylinder.007
+  - first:
+      23: 2300024
+    second: GoldRing
+  - first:
+      23: 2300026
+    second: GoldRing.001
+  - first:
+      23: 2300028
+    second: GoldRing.002
+  - first:
+      23: 2300030
+    second: GoldRing.003
+  - first:
+      23: 2300032
+    second: InkTip
+  - first:
+      23: 2300034
+    second: InkTip.001
+  - first:
+      23: 2300036
+    second: SilverTip
+  - first:
+      23: 2300038
+    second: SilverTip.001
+  - first:
+      23: 2300040
+    second: SphereTIP
+  - first:
+      23: 2300042
+    second: SphereTIP.001
+  - first:
+      23: 2300044
+    second: TheThingyThing
+  - first:
+      23: 2300046
+    second: TheThingyThing.001
+  - first:
+      33: 3300000
+    second: brasstip
+  - first:
+      33: 3300002
+    second: brasstip.001
+  - first:
+      33: 3300004
+    second: Button
+  - first:
+      33: 3300006
+    second: Button.001
+  - first:
+      33: 3300008
+    second: Cylinder.000
+  - first:
+      33: 3300010
+    second: Cylinder.001
+  - first:
+      33: 3300012
+    second: Cylinder.002
+  - first:
+      33: 3300014
+    second: Cylinder.003
+  - first:
+      33: 3300016
+    second: Cylinder.004
+  - first:
+      33: 3300018
+    second: Cylinder.005
+  - first:
+      33: 3300020
+    second: Cylinder.006
+  - first:
+      33: 3300022
+    second: Cylinder.007
+  - first:
+      33: 3300024
+    second: GoldRing
+  - first:
+      33: 3300026
+    second: GoldRing.001
+  - first:
+      33: 3300028
+    second: GoldRing.002
+  - first:
+      33: 3300030
+    second: GoldRing.003
+  - first:
+      33: 3300032
+    second: InkTip
+  - first:
+      33: 3300034
+    second: InkTip.001
+  - first:
+      33: 3300036
+    second: SilverTip
+  - first:
+      33: 3300038
+    second: SilverTip.001
+  - first:
+      33: 3300040
+    second: SphereTIP
+  - first:
+      33: 3300042
+    second: SphereTIP.001
+  - first:
+      33: 3300044
+    second: TheThingyThing
+  - first:
+      33: 3300046
+    second: TheThingyThing.001
+  - first:
+      43: 4300000
+    second: SilverTip.001
+  - first:
+      43: 4300002
+    second: Cylinder.007
+  - first:
+      43: 4300004
+    second: GoldRing.003
+  - first:
+      43: 4300006
+    second: GoldRing.002
+  - first:
+      43: 4300008
+    second: Cylinder.006
+  - first:
+      43: 4300010
+    second: brasstip.001
+  - first:
+      43: 4300012
+    second: SphereTIP.001
+  - first:
+      43: 4300014
+    second: InkTip.001
+  - first:
+      43: 4300016
+    second: TheThingyThing.001
+  - first:
+      43: 4300018
+    second: Button.001
+  - first:
+      43: 4300020
+    second: Cylinder.005
+  - first:
+      43: 4300022
+    second: Cylinder.003
+  - first:
+      43: 4300024
+    second: Cylinder.002
+  - first:
+      43: 4300026
+    second: Cylinder.000
+  - first:
+      43: 4300028
+    second: Button
+  - first:
+      43: 4300030
+    second: TheThingyThing
+  - first:
+      43: 4300032
+    second: InkTip
+  - first:
+      43: 4300034
+    second: SphereTIP
+  - first:
+      43: 4300036
+    second: brasstip
+  - first:
+      43: 4300038
+    second: Cylinder.004
+  - first:
+      43: 4300040
+    second: GoldRing.001
+  - first:
+      43: 4300042
+    second: GoldRing
+  - first:
+      43: 4300044
+    second: Cylinder.001
+  - first:
+      43: 4300046
+    second: SilverTip
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrassMetal
+    second: {fileID: 2100000, guid: aa0f79913bd927542af461e12d9fc370, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BronzeMetal
+    second: {fileID: 2100000, guid: 4a5f31ec3ae51044db3768ba7a03f8a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glossy
+    second: {fileID: 2100000, guid: b9f9c7dc125b79347bbbc8fb578bbfa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ink
+    second: {fileID: 2100000, guid: c012a8c711f7586458b05c730f7ae5a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 6a2ad9a3dce939f489482c33895fe3a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Leather
+    second: {fileID: 2100000, guid: 554b3216308ebaf40b25b703e3d5852c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 7b6ba8b1d35a6544f88a6ff095965cba, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -157,13 +450,23 @@ ModelImporter:
     globalScale: 100
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -171,26 +474,35 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 100
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

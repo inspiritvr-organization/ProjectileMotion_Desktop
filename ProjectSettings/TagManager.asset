@@ -5,14 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Projectile
-  - Spring
   - Grab
-  - Incline
-  - VectorResolution
-  - Weight
   - Button
-  - FxTemporaire
-  - projectile
   - UI
   layers:
   - Default
@@ -23,27 +17,27 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
   - Projectile
   - Grab
   - Controller
-  - Trail
   - Player
-  - Chain
+  - PoolLayer
+  - HookLayer
+  - Hookable
+  - RayCastBtn
   - InclineObj
-  - Setup
-  - Cannon
+  - CueBall
   - Ground
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PostProcessing
+  - Cell
+  - Beaker
+  - Button
+  - Pick
+  - SensorArea
+  - HandColliderLayer
+  - CollisionLayer
+  - HandLayer
+  - FloorLayer
   - 
   - 
   - 
